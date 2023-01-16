@@ -114,12 +114,24 @@ a {
 
 }
 
-
-
-
+/* ---------------------------------------------- */
 
 .sec3 {
     background-color: #E5E7EB;
+    padding: 100px 220px;
+    font-style: italic;
+    font-weight: 100;
+    font-size: 36px;
+    color: #1F2937;
+    text-align:justify;
+}
+
+.quote-person {
+    font-weight: 600;
+    font-size: 22px;
+    font-style: normal;
+    text-align: end;
+
 }
 
 .footer {
