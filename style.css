@@ -16,7 +16,7 @@ body {
     font-size: 24px;
     font-weight: 500;
     padding: 12px;
-    margin: 0 116px;
+    margin: 0 150px;
     justify-content: space-between;
 }
 
@@ -37,14 +37,18 @@ a {
 
  .container {
     display: flex;
-    margin: 90px 128px;
-    gap: 12px;
+    margin: 100px 162px;
+    gap: 50px;
+    
 }
 
 .hero {
+    display: flex;
     flex-wrap: wrap;
     color: #F9FAF8;
-    flex: 1 1 300px;
+    flex: 1 1 270px;
+    align-items: center;
+    
 }
 
 .image {
@@ -53,6 +57,7 @@ a {
     background-color: grey;
     align-items: center;
     justify-content: center;
+    min-height: 250px;
 }
 
 .hero .title {
@@ -123,7 +128,7 @@ a {
     font-weight: 100;
     font-size: 36px;
     color: #1F2937;
-    text-align:justify;
+    /* text-align:justify; */
 }
 
 .quote-person {
@@ -131,9 +136,44 @@ a {
     font-size: 22px;
     font-style: normal;
     text-align: end;
+}
+
+/* ---------------------------------------------- */
+
+.sec4 {
+    padding: 100px 160px;
+}
+.action {
+    display: flex;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 50px 100px;
+    border-radius: 6px;
+    justify-content: space-between;
+    align-items: center ;
+    font-size: 20px;
+}
+
+.action button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 7px 36px;
+    border-style: solid;
+    border-color: #F9FAF8;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 500;
 
 }
 
+.action strong {
+    font-size: larger;
+}
+
+
 .footer {
     background-color: #1F2937;
+    text-align: center;
+    padding: 36px;
+    color: #F9FAF8;
 }
